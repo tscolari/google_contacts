@@ -28,6 +28,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem "haml-rails"
+gem "devise"
+gem "omniauth"
+gem "omniauth-google-oauth2"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -36,6 +39,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'faker'
 end
