@@ -42,6 +42,9 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'faker'
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'pry-debugger'
 end
 
 # Use ActiveModel has_secure_password
