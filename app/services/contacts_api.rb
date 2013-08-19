@@ -26,7 +26,7 @@ class ContactsAPI
   end
 
   def response(page)
-    start_index = (page.to_i - 1) * PER_PAGE
+    start_index = (page.to_i - 1) * PER_PAGE + 1
     uri = URI.parse("https://www.google.com")
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true

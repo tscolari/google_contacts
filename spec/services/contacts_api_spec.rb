@@ -19,7 +19,7 @@ describe ContactsAPI do
     it "should make the correct api call to google" do
       credentials = { "token" => '1234' }
       page = 1
-      start = (page - 1) * ContactsAPI::PER_PAGE
+      start = (page - 1) * ContactsAPI::PER_PAGE + 1
       path   = "/m8/feeds/contacts/default/full?max-results=#{ContactsAPI::PER_PAGE}&start-index=#{start}"
       headers = {
         'Authorization' => "AuthSub token=#{credentials["token"]}",
