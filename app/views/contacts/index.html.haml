@@ -3,7 +3,11 @@
 %ul
   - @contacts.each do |contact|
     %li
-      %b= contact.name
+      %p
+        %b= contact.name
+        - if contact.phone
+          (Phone: #{contact.phone})
+
       = contact.email
 
 = pagination(@contacts).html_safe

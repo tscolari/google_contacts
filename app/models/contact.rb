@@ -11,6 +11,8 @@ class Contact
     @name = element.elements['title'].text
     gd_email = element.elements['gd:email']
     @email = gd_email.attributes['address'] if gd_email
+    gd_phone = element.elements['gd:phoneNumber']
+    @phone = gd_phone.text.strip if gd_phone
   end
 
 end

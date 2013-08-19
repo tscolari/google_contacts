@@ -9,6 +9,7 @@ describe Contact do
       contact = Contact.new(entry)
       contact.name.should eq 'Fitzwilliam Darcy'
       contact.email.should eq 'sample@test.com'
+      contact.phone.should eq '456'
     end
   end
 
