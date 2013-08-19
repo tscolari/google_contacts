@@ -3,6 +3,10 @@ README
 
 Simpel app to test rails and google contacts integration.
 
+Demo APP
+----------
+HEROKU: http://tscolari-google-contacts.herokuapp.com/contacts/
+
 Requirements
 -------
 
