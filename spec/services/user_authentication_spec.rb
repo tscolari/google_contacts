@@ -3,7 +3,7 @@ require 'spec_helper'
 describe UserAuthentication do
   let(:session) { Hash.new }
   let(:controller) do
-    mock.tap do |controller|
+    double.tap do |controller|
       controller.stub(:session).and_return(session)
     end
   end
