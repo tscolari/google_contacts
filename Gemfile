@@ -31,6 +31,7 @@ gem "haml-rails"
 gem "devise"
 gem "omniauth"
 gem "omniauth-google-oauth2"
+gem 'memcachier'
 gem "dalli"
 
 group :doc do

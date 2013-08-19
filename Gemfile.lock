@@ -87,6 +87,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    memcachier (0.0.2)
     method_source (0.8.2)
     mime-types (1.24)
     minitest (4.7.5)
@@ -196,6 +197,7 @@ DEPENDENCIES
   haml-rails
   jbuilder (~> 1.2)
   jquery-rails
+  memcachier
   omniauth
   omniauth-google-oauth2
   pg
