@@ -47,6 +47,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-nav'
   gem 'pry-debugger'
+  gem 'simplecov', require: false
 end
 
 # Use ActiveModel has_secure_password
